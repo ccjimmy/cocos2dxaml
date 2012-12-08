@@ -704,8 +704,6 @@
       <Filter>cocos2dx\extendsion</Filter>
     </ClInclude>
     <ClInclude Include="BasicTimer.h" />
-    <ClInclude Include="DirectXBase.h" />
-    <ClInclude Include="SimpleTextRenderer.h" />
     <ClInclude Include="App.xaml.h" />
     <ClInclude Include="DirectXPage.xaml.h" />
     <ClInclude Include="..\cocos2dx\platform\win8_metro\DirectXRender.h">
@@ -1172,8 +1170,6 @@
     <ClCompile Include="..\cocos2dx\extensions\CCNotificationCenter.cpp">
       <Filter>cocos2dx\extendsion</Filter>
     </ClCompile>
-    <ClCompile Include="DirectXBase.cpp" />
-    <ClCompile Include="SimpleTextRenderer.cpp" />
     <ClCompile Include="App.xaml.cpp" />
     <ClCompile Include="DirectXPage.xaml.cpp" />
     <ClCompile Include="..\cocos2dx\platform\win8_metro\DirectXRender.cpp">

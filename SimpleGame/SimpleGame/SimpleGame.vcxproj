@@ -28,7 +28,7 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{285C09C8-3417-49D1-B538-7F52A605820A}</ProjectGuid>
-    <RootNamespace>FishingJoy_win8_metro</RootNamespace>
+    <RootNamespace>SnackStudio_win8_metro</RootNamespace>
     <DefaultLanguage>en-US</DefaultLanguage>
     <VCTargetsPath Condition="'$(VCTargetsPath11)' != '' and '$(VSVersion)' == '' and '$(VisualStudioVersion)' == ''">$(VCTargetsPath11)</VCTargetsPath>
     <MinimumVisualStudioVersion>11.0</MinimumVisualStudioVersion>
@@ -292,12 +292,10 @@
     <ClInclude Include="BasicTimer.h" />
     <ClInclude Include="Classes\GameOverScene.h" />
     <ClInclude Include="Classes\HelloWorldScene.h" />
-    <ClInclude Include="DirectXBase.h" />
     <ClInclude Include="DirectXPage.xaml.h">
       <DependentUpon>DirectXPage.xaml</DependentUpon>
     </ClInclude>
     <ClInclude Include="pch.h" />
-    <ClInclude Include="SimpleTextRenderer.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\Box2D\Collision\b2BroadPhase.cpp" />
@@ -455,15 +453,12 @@
     <ClCompile Include="AppDelegate.cpp" />
     <ClCompile Include="Classes\GameOverScene.cpp" />
     <ClCompile Include="Classes\HelloWorldScene.cpp" />
-    <ClCompile Include="DirectXBase.cpp" />
     <ClCompile Include="DirectXPage.xaml.cpp">
       <DependentUpon>DirectXPage.xaml</DependentUpon>
     </ClCompile>
     <ClCompile Include="main.cpp" />
     <ClCompile Include="pch.cpp" />
-    <ClCompile Include="SimpleTextRenderer.cpp" />
   </ItemGroup>
-
   <ItemGroup>
     <AppxManifest Include="Package.appxmanifest">
       <SubType>Designer</SubType>
@@ -589,7 +584,6 @@
       <DeploymentContent>true</DeploymentContent>
     </None>
   </ItemGroup>
-
   <ItemGroup>
     <ApplicationDefinition Include="App.xaml">
       <SubType>Designer</SubType>
@@ -601,7 +595,6 @@
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>
-
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
